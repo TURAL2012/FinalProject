@@ -1,0 +1,98 @@
+@import "home.scss";
+@import "header.scss";
+@import "footer.scss";
+@import "animations.scss";
+@import "integ.scss";
+@import "signin.scss";
+@import "blog.scss";
+@import "pricing.scss";
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap');
+
+.light {
+  // header
+  // ***********************************************
+  --bgcolor: white;
+  --logocolor: black;
+  --licolor: #514f5e;
+  --lihovercolor: #15151d;
+  // sect1
+  // ***********************************************
+  --h1_h3color: black;
+  --inputbg: white;
+  --inputborder: 0px solid white;
+  // sect2
+  // ***********************************************
+  --bgcolor_2: #f7f6fe;
+  --bgcolor3: white;
+
+  --li2color: #deddeb;
+
+  --boxbg:white;
+}
+
+.dark {
+  // header
+  // ***********************************************
+  --bgcolor: #15151d;
+  --logocolor: white;
+  --licolor: #deddeb;
+  --lihovercolor: #fff;
+  // sect1
+  // ***********************************************
+  --h1_h3color: white;
+  --inputbg: #15151d;
+  --inputborder: 2px solid #514f5e;
+  // sect2
+  // ***********************************************
+  --bgcolor_2: #25252f;
+  --bgcolor3: black;
+
+  --li2color: #deddeb;
+
+  --boxbg:#25252f ;
+}
+
+// .preloader {
+//     width: 100%;
+//     height: 100vh;
+//     background-color:rgb(30, 37, 58);
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     z-index: 99999;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+.loading {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.preloader {
+  background: var(--bgcolor);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 9;
+}
+
+.mode{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

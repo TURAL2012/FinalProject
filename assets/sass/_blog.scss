@@ -1,0 +1,437 @@
+.blog1 {
+    width: 100%;
+    height: 200vh;
+    background-color: var(--bgcolor);
+
+    .header {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        padding-top: 70px;
+
+        h1 {
+            font-family: 'Hanken Grotesk', sans-serif;
+            font-weight: 600;
+            font-size: 52px;
+            color: var(--h1_h3color);
+        }
+    }
+
+    .imgdiv {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 1116px;
+            height: 558px;
+            border-radius: 25px;
+        }
+    }
+
+    .minitext {
+        width: 100%;
+        height: 100%;
+        padding-left: 100px;
+
+        h5 {
+            font-size: 14px;
+            font-family: 'Hanken Grotesk', sans-serif;
+            font-weight: 400;
+            color: var(--h1_h3color);
+        }
+    }
+
+    .mediumtext {
+        width: 100%;
+        height: 100%;
+        padding-left: 100px;
+
+        h2 {
+            font-family: 'Hanken Grotesk', sans-serif;
+            font-size: 44px;
+            font-weight: 600;
+            color: var(--h1_h3color);
+        }
+    }
+
+    .mdtext2 {
+        width: 100%;
+        height: 100%;
+        padding-left: 100px;
+
+        h4 {
+            font-size: 20px;
+            font-family: 'Hanken Grotesk', sans-serif;
+            font-weight: 400;
+            color: var(--h1_h3color);
+        }
+    }
+
+    .imgtext {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        padding-left: 100px;
+
+        h3 {
+            font-size: 14px;
+            font-family: 'Hanken Grotesk', sans-serif;
+            font-weight: 600;
+            margin-left: 10px;
+            color: var(--h1_h3color);
+        }
+
+        img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+
+
+        }
+    }
+}
+
+
+.blog2 {
+    width: 100%;
+    height: 97vh;
+    display: flex;
+    background-color: var(--bgcolor);
+
+
+    .imgbox1 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+
+
+        img {
+            width: 546px;
+            height: 273px;
+            border-radius: 25px;
+        }
+
+        h5 {
+            font-size: 14px;
+            font-family: 'Hanken Grotesk', sans-serif;
+            font-weight: 400;
+            margin-top: 10px;
+            color: var(--h1_h3color);
+        }
+
+        h3 {
+            font-size: 28px;
+            font-weight: 500;
+            font-family: 'Hanken Grotesk', sans-serif;
+            margin-top: 10px;
+
+            color: var(--h1_h3color);
+        }
+
+        h4 {
+            font-size: 14px;
+            font-family: 'Hanken Grotesk', sans-serif;
+            font-weight: 400;
+            margin-top: 10px;
+            color: var(--h1_h3color);
+        }
+
+        .imgtext {
+            width: auto;
+            height: auto;
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+
+            h3 {
+                font-size: 14px;
+                font-family: 'Hanken Grotesk', sans-serif;
+                font-weight: 600;
+                margin-left: 10px;
+                color: var(--h1_h3color);
+            }
+
+            img {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+
+
+            }
+        }
+    }
+
+    .imgbox2 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+
+
+        img {
+            width: 546px;
+            height: 273px;
+            border-radius: 25px;
+        }
+
+        h5 {
+            font-size: 14px;
+            font-family: 'Hanken Grotesk', sans-serif;
+            font-weight: 400;
+            margin-top: 10px;
+            color: var(--h1_h3color);
+        }
+
+        h3 {
+            font-size: 28px;
+            font-weight: 500;
+            font-family: 'Hanken Grotesk', sans-serif;
+            margin-top: 10px;
+            color: var(--h1_h3color);
+
+        }
+
+        h4 {
+            font-size: 14px;
+            font-family: 'Hanken Grotesk', sans-serif;
+            font-weight: 400;
+            margin-top: 10px;
+            color: var(--h1_h3color);
+        }
+
+        .imgtext {
+            width: auto;
+            height: auto;
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+
+            h3 {
+                font-size: 14px;
+                font-family: 'Hanken Grotesk', sans-serif;
+                font-weight: 600;
+                margin-left: 10px;
+                color: var(--h1_h3color);
+            }
+
+            img {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+
+
+            }
+        }
+    }
+}
+
+
+@media (max-width: 576px) {
+
+    .blog1 {
+        height: auto !important;
+
+        .imgdiv {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 516px;
+                height: 358px;
+                border-radius: 25px;
+            }
+        }
+
+        .minitext {
+            width: 100%;
+            height: 100%;
+            padding-left: 0;
+
+            h5 {
+                font-size: 14px;
+                font-family: 'Hanken Grotesk', sans-serif;
+                font-weight: 400;
+                color: var(--h1_h3color);
+            }
+        }
+
+        .mediumtext {
+            width: 100%;
+            height: 100%;
+            padding-left: 0;
+
+            h2 {
+                font-family: 'Hanken Grotesk', sans-serif;
+                font-size: 24px;
+                font-weight: 600;
+                color: var(--h1_h3color);
+            }
+        }
+
+        .mdtext2 {
+            width: 100%;
+            height: 100%;
+            padding-left: 0;
+
+            h4 {
+                font-size: 16px;
+                font-family: 'Hanken Grotesk', sans-serif;
+                font-weight: 400;
+                color: var(--h1_h3color);
+
+            }
+        }
+
+
+        .imgtext {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            padding-left: 0;
+
+        }
+
+    }
+
+    .blog2 {
+        height: auto !important;
+
+
+
+        .imgbox1 {
+            margin-left: 0;
+
+
+            img {
+                width: 346px;
+                height: 173px;
+                border-radius: 25px;
+            }
+
+            h5 {
+                font-size: 14px;
+                font-family: 'Hanken Grotesk', sans-serif;
+                font-weight: 400;
+                margin-top: 10px;
+                color: var(--h1_h3color);
+            }
+
+            h3 {
+                font-size: 28px;
+                font-weight: 500;
+                font-family: 'Hanken Grotesk', sans-serif;
+                margin-top: 10px;
+
+                color: var(--h1_h3color);
+            }
+
+            h4 {
+                font-size: 14px;
+                font-family: 'Hanken Grotesk', sans-serif;
+                font-weight: 400;
+                margin-top: 10px;
+                color: var(--h1_h3color);
+            }
+
+            .imgtext {
+                width: auto;
+                height: auto;
+                display: flex;
+                align-items: center;
+                margin-top: 10px;
+
+                h3 {
+                    font-size: 14px;
+                    font-family: 'Hanken Grotesk', sans-serif;
+                    font-weight: 600;
+                    margin-left: 10px;
+                    color: var(--h1_h3color);
+                }
+
+                img {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+
+
+                }
+            }
+        }
+
+        .imgbox2 {
+            height: auto !important;
+
+
+
+
+            img {
+                width: 346px;
+                height: 173px;
+                border-radius: 25px;
+            }
+
+            h5 {
+                font-size: 14px;
+                font-family: 'Hanken Grotesk', sans-serif;
+                font-weight: 400;
+                margin-top: 10px;
+                color: var(--h1_h3color);
+            }
+
+            h3 {
+                font-size: 28px;
+                font-weight: 500;
+                font-family: 'Hanken Grotesk', sans-serif;
+                margin-top: 10px;
+                color: var(--h1_h3color);
+
+            }
+
+            h4 {
+                font-size: 14px;
+                font-family: 'Hanken Grotesk', sans-serif;
+                font-weight: 400;
+                margin-top: 10px;
+                color: var(--h1_h3color);
+            }
+
+            .imgtext {
+                width: auto;
+                height: auto;
+                display: flex;
+                align-items: center;
+                margin-top: 10px;
+
+                h3 {
+                    font-size: 14px;
+                    font-family: 'Hanken Grotesk', sans-serif;
+                    font-weight: 600;
+                    color: var(--h1_h3color);
+                }
+
+                img {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+
+
+                }
+            }
+        }
+    }
+
+}
+
+
+@media (max-width: 768px) {}
